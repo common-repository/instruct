@@ -1,0 +1,39 @@
+/* 
+    Document   : diy-post
+    Created on : Feb 17, 2012, 8:58:51 PM
+    Author     : ebartel
+    Description:
+      
+*/
+
+#branding{
+  z-index:9995
+}
+  
+img.instruct-thumbnail-img{
+  width:200px;
+  max-width: 200px;
+}
+
+#instruct-thumbnail-large {
+	display: none;
+	position: absolute;		
+	background: #FFFFFF;	
+	padding: 5px;
+	z-index: 9999;
+	min-height: 200px;
+	min-width: 200px;
+	color: #336699;
+}
+
+#instruct-thumbnail-bg{
+	display: none;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #000000;	
+	z-index: 9996;
+}
+
